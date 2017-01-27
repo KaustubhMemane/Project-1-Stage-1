@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MovieNOW</string>
+    <string name="popular">Popular</string>
+    <string name="Error_message">Error please try again !</string>
+    <string name="no_title">NO TITLE</string>
+    <string name="release_date">RELEASE DATE</string>
+    <string name="rating">RATING</string>
+    <string name="links">LINKS</string>
+    <string name="overview">OVERVIEW</string>
+    <string name="thumbnail_image">Thumbnail Image</string>
+    <string name="top_rated">Top Rated</string>
+
+</resources>

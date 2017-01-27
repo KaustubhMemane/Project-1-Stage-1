@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+    android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+
+    <FrameLayout
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+        android:fitsSystemWindows="true"
+        android:id="@+id/backpathImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+            android:contentDescription="@string/thumbnail_image" />
+        </FrameLayout>
+
+    <FrameLayout
+        android:layout_weight="6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:background="@color/black"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <TextView
+        android:padding="2dp"
+    android:fontFamily="sans-serif-condensed"
+    android:textSize="30sp"
+    android:maxLines="1"
+    android:ellipsize="marquee"
+    android:marqueeRepeatLimit="marquee_forever"
+    android:id="@+id/tvDisplay"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/Title_background"
+    android:text="@string/no_title"
+    />
+    <TextView
+    android:textColor="@color/colorAccent"
+    android:id="@+id/tvDisplayReleaseDate"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/release_date"
+    android:textSize="20sp"
+    />
+    <TextView
+    android:textColor="@color/colorAccent"
+    android:id="@+id/tvDisplayRatings"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/rating"
+    android:textSize="20sp"
+    />
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:padding="3dp"
+        android:background="@color/Title_background"
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <TextView
+    android:id="@+id/tvDisplayOverview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/overview"
+    android:textSize="20sp"
+    />
+        </ScrollView>
+    </FrameLayout>
+</LinearLayout>
