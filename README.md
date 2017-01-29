@@ -1,10 +1,10 @@
 # Project-1-Stage-1
-In this project, I have built an app to help users discover popular and recent movies. With the help of Picasso and TheMovieDw.
+In this project, I have built an app to help users to discover popular and recent movies. With the help of Picasso and TheMovieDw.
 IN THIS PROjECT:
     Present the user with a grid arrangement of movie posters upon launch.
-    Allow your user to change sort order via a setting:
-        The sort order can be by most popular or by highest-rated
-    Allow the user to tap on a movie poster and transition to a details screen with additional information such as:
+    This Android application allows your user to change sort order via a setting:
+        The sort order can be by most popular or by highest-rated Movies
+    And also allows the user to tap on a movie poster and transition to a details screen with additional information such as:
         original title
         movie poster image thumbnail
         A plot synopsis (called overview in the api)
